@@ -1982,7 +1982,7 @@ body {
 }
 .cid-qJmukr1Xi2 {
   padding-top: 120px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
 .cid-qJmukr1Xi2 .counter-container {
@@ -2012,6 +2012,11 @@ body {
   height: 25px;
   border-radius: 50%;
   content: '✓';
+}
+.cid-qJtFdrYw0t {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
 }
 .cid-qJmcF7aVNH .navbar {
   padding: .5rem 0;
@@ -2402,41 +2407,25 @@ body {
 .cid-qJmcF7aVNH .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-qJmuiQoTIu {
-  padding-top: 90px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
+.cid-qJtDKjp3cv {
+  padding-top: 45px;
+  padding-bottom: 90px;
+  background-color: #f9f9f9;
 }
-.cid-qJmuiQoTIu .counter-container {
+.cid-qJtDKjp3cv h4 {
+  text-align: left;
+  font-weight: 500;
+}
+.cid-qJtDKjp3cv p {
   color: #767676;
+  text-align: left;
 }
-.cid-qJmuiQoTIu .counter-container ol {
-  margin-bottom: 0;
-  counter-reset: myCounter;
+.cid-qJtDKjp3cv .card-img {
+  text-align: left;
 }
-.cid-qJmuiQoTIu .counter-container ol li {
-  margin-bottom: 1rem;
-}
-.cid-qJmuiQoTIu .counter-container ol li {
-  list-style: none;
-  padding-left: .5rem;
-}
-.cid-qJmuiQoTIu .counter-container ol li:before {
-  position: absolute;
-  left: 0px;
-  margin-top: -10px;
-  counter-increment: myCounter;
-  content: counter(myCounter);
-  display: inline-block;
-  text-align: center;
-  margin: 5px 10px;
-  line-height: 40px;
-  transition: all .2s;
-  color: #ffffff;
-  background: #149dcc;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+.cid-qJtDKjp3cv .card-img span {
+  font-size: 72px;
+  color: #707070;
 }
 .cid-qJnwnnxONY {
   padding-top: 90px;
