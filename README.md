@@ -1,0 +1,2 @@
+# fayence-location
+GitHub Pages
