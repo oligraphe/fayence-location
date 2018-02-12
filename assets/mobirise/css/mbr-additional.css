@@ -3797,3 +3797,27 @@ body {
   border-radius: 50%;
   content: '✓';
 }
+.cid-qJtIRpB2k0 {
+  background: #ffffff;
+}
+.cid-qJtIRpB2k0 .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-qJtIRpB2k0 .video-block {
+    width: 100% !important;
+  }
+}
+.cid-qJtJaEHKWI {
+  background: #ffffff;
+}
+.cid-qJtJaEHKWI .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-qJtJaEHKWI .video-block {
+    width: 100% !important;
+  }
+}
