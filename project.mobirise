@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "Fayence Location",
-    "currentPage": "tourisme.html",
+    "currentPage": "galerie photo.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 57,
+    "uniqCompNum": 58,
     "versionPublish": "4.6.5",
     "theme": {
       "name": "mobirise4",
@@ -1875,7 +1875,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/101-0128-img-1600x1200-800x600.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "",
                 "active": false
               },
               {
@@ -1887,7 +1887,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/d9eca9d9-c44f-431d-907c-aa26fc47ca1e-2000x1333-800x599.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "<b>Terasse</b>",
                 "active": false
               },
               {
@@ -1911,32 +1911,68 @@
                 "thumb": "@PROJECT_PATH@/assets/images/fayence-piscine-851x638-800x599.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": true
+                "caption": "<b>Piscine privative et sécurisée (volet immergé) de 11m sur 4,5m, profondeur de 1 à 2 m avec 8 bains de soleil en teck, 6 chaises longues et 2 hamacs</b><br>",
+                "active": false
               },
               {
                 "tags": "Animated",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-3417-2000x2000.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-3417-2000x2000-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/101-0105-img-1-1600x1200.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/101-0105-img-1-1600x1200-800x449.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "<b>Salon avec télévision, radio-CD portable et lecteur de DVD.</b>",
                 "active": false
               },
               {
-                "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-1-0-17-20-4-39328.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=D-Ud8o_cxFE",
-                "image": "@PROJECT_PATH@/assets/images/fayence-chambre-1er-etage-500x208.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/fayence-chambre-1er-etage-500x208-274x205.jpg",
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fayence-chambre-1er-etage-2-500x198.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fayence-chambre-1er-etage-2-500x198-351x197.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "<b>Chambre 1 au premier étage avec salle de bain et douche.</b><br>",
                 "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fayence-chambre-1-2eme-etage-500x188.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fayence-chambre-1-2eme-etage-500x188-334x188.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Chambre 1 au deuxiéme étage avec salle de douche.</b>",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fayence-chambre-2-2eme-etage-500x193.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fayence-chambre-2-2eme-etage-500x193-342x192.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Chambre 3 au deuxième étage</b>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fayence-cuisine-500x157.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fayence-cuisine-500x157-278x156.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Cuisine au rez-de-chaussée avec plaque vitrocéramique, four, frigo, lave-vaisselle, micro-ondes.</b><br>",
+                "active": true
               }
             ]
           }
@@ -2500,6 +2536,45 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_styles": {
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background": "@bgColor",
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image1",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/fayence-ete-2008-photos-prises-par-papa-vdk-062-2800x2100.jpg\" width=\"1400\" alt=\"Mobirise\" title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Create awesome websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
+          "_cid": "qJtKxC2Pqz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image1-1l"
         }
       ]
     },

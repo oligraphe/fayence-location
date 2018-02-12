@@ -3363,6 +3363,26 @@ body {
   border-radius: 50%;
   content: '✓';
 }
+.cid-qJtKxC2Pqz {
+  background: #ffffff;
+}
+.cid-qJtKxC2Pqz .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-qJtKxC2Pqz figcaption {
+  position: relative;
+}
+.cid-qJtKxC2Pqz figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qJtKxC2Pqz .image-block {
+    width: 100% !important;
+  }
+}
 .cid-qJnxdf6YYJ {
   padding-top: 105px;
   padding-bottom: 0px;
