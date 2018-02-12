@@ -3830,14 +3830,28 @@ body {
   }
 }
 .cid-qJtJaEHKWI {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #ffffff;
 }
 .cid-qJtJaEHKWI .video-block {
   margin: auto;
-  width: 100% !important;
 }
 @media (max-width: 768px) {
   .cid-qJtJaEHKWI .video-block {
+    width: 100% !important;
+  }
+}
+.cid-qJtQZLvG38 {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background: #ffffff;
+}
+.cid-qJtQZLvG38 .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-qJtQZLvG38 .video-block {
     width: 100% !important;
   }
 }
