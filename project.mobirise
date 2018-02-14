@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fayence Location",
-    "currentPage": "Description.html",
+    "currentPage": "galerie photo.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 59,
     "versionPublish": "4.6.5",
@@ -1972,6 +1972,66 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Cuisine au rez-de-chaussée avec plaque vitrocéramique, four, frigo, lave-vaisselle, micro-ondes.</b><br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fayence-salle-a-manger-500x155.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fayence-salle-a-manger-500x155-272x153.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Salle à &nbsp;manger au rez-de-chaussée&nbsp;</b><br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fayence-bureau-chambre-1er-etage-500x177.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fayence-bureau-chambre-1er-etage-500x177-314x176.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Chambre 1er étage avec deux lits simples</b><br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fayence-plan-rdc-500x350.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fayence-plan-rdc-500x350-500x281.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Plan rez-de-chaussée&nbsp;</b><br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fayence-plan-1er-etage-500x249.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fayence-plan-1er-etage-500x249-442x249.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Plan 2éme étage</b><br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fayence-plan-2eme-etage-500x256.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fayence-plan-2eme-etage-500x256-453x255.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Plan 1er étage</b><br>",
                 "active": true
               }
             ]
