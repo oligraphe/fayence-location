@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fayence Location",
-    "currentPage": "Description.html",
+    "currentPage": "tarifs.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 61,
     "versionPublish": "4.6.5",
@@ -894,7 +894,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://www.homelidays.com/hebergement/p6071163?uni_id=1830457\" target=\"_blank\">DISONIBILITES ET TARIFS SUR HOMELIDAYS</a>\n                    <a class=\"btn btn-secondary\" href=\"https://fr.airbnb.be/rooms/4954449\" target=\"_blank\">DISPONIBILITES ET TARIFS SUR AIRBNB</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://www.homelidays.com/hebergement/p6071163?uni_id=1830457\" target=\"_blank\">DISONIBILITES ET TARIFS SUR HOMELIDAYS</a>\n                    <a class=\"btn btn-secondary\" href=\"https://fr.airbnb.be/rooms/4954449\" target=\"_blank\">DISPONIBILITES ET TARIFS SUR AIRBNB</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qJtFdrYw0t",
           "_anchor": "content8-1i",
           "_protectedParams": [],
