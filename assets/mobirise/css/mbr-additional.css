@@ -2902,8 +2902,20 @@ body {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
-.cid-qJmHChJFuk {
+.cid-qJFigYwiTu {
   padding-top: 105px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-qJFigYwiTu .mbr-text,
+.cid-qJFigYwiTu blockquote {
+  color: #767676;
+}
+.cid-qJFigYwiTu .mbr-text {
+  text-align: center;
+}
+.cid-qJmHChJFuk {
+  padding-top: 30px;
   padding-bottom: 15px;
   background-color: #ffffff;
 }
@@ -3301,7 +3313,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qJmG3gMbw5 {
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 15px;
   background-color: #ffffff;
 }
