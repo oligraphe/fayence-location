@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "Fayence Location",
-    "currentPage": "tarifs.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 61,
+    "uniqCompNum": 68,
     "versionPublish": "4.6.5",
     "theme": {
       "name": "mobirise4",
@@ -826,11 +826,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" data-multiline mbr-article><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tarifs &amp; Disponibilités</b></div>\n        </div>\n    </div>\n</section>",
           "_cid": "qJFeYcgh42",
+          "_anchor": "content1-1n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-1n"
+          "_params": {}
         },
         {
           "_styles": {
@@ -2082,11 +2082,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" data-multiline mbr-article><b>Description</b></div>\n        </div>\n    </div>\n</section>",
           "_cid": "qJFigYwiTu",
+          "_anchor": "content1-1o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-1o"
+          "_params": {}
         },
         {
           "_styles": {
@@ -2694,15 +2694,86 @@
             "background-color": "@bgColor",
             ".mbr-text, blockquote": {
               "color": "#767676"
-            },
-            ".mbr-text B": {
-              "color": "#465052"
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" data-multiline mbr-article><b>Tourisme et &nbsp;découverte</b></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qJnxdf6YYJ",
-          "_anchor": "content1-1e",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><b>LOISIRS ET SPORT</b></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qK2tF0E1Yo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-1q"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "0px",
+                      "margin-top": "-10px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "25px",
+                      "height": "25px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "_name": "content12",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li><b>Villages perchés </b>de Fayence, Tourrettes, Seillan, Caillan, Mons, et Montauroux</li><li><b>Infrastructures sportives </b>autour de Fayence (tennis, piscine,…)</li><li><b>Sports nautiques (location Canoé/Kayak/Paddle surf…) </b>au Lac de Saint Cassien (à 12km) – planche à voile, pédalo, aviron, baignade…</li><li><b>Sports nautiques à la mer (à 35km) </b>– Saint Raphaël, Cannes, …</li><li><b>Golf </b>de Montauroux (à 3km)</li><li><b>Centre de vol-à-voile </b>de Fayence (2km)</li><li><b>Randonnées </b>au Massif de l’Estérel (à 35km)</li><li><b>Randonnées </b>et escalade aux <a href=\"http://www.altituderando.com/Esterel-Les-Gorges-du-Blavet \" target=\"_blank\">Gorges du Blavet</a> (à 20km) &nbsp;</li><li><b>Randonnées, escalade et canyoning </b>dans les Gorges du Verdon (60km)</li><li><b>Promenades dans les riviéres </b>(Siagne et Siagnole). Accès via la route de Saint-Cézaire . <a href=\"http://www.ajustadous.fr/aire-des-ajustadous\" target=\"_blank\">Petite aire de jeu</a> pour les enfants en bord de riviére au croisement entre Siagne et Siagnole.&nbsp;</li><li><b>Location Canoé-Kayak-VTT </b>à Roquebrunne-sur-Argens (30km) <a href=\"https://www.basedurocher.fr\" target=\"_blank\">https://www.basedurocher.fr</a> &nbsp;</li><li><b>Les bambous du Mandarin </b>(jolie <a href=\"http://www.cote.azur.fr/articles/lieu/les-bambous-du-mandarin-100.htm#_=_\" target=\"_blank\">forêt de bambou</a> près de Montauroux petite entrée payante)&nbsp;</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qK2ueiRNou",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content12-1s"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><b>ARTS ET CULTURE</b></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-1t",
+          "_isUserblock": true,
+          "_cid": "qK2uz27UhW",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3160,9 +3231,84 @@
             }
           },
           "_name": "content12",
-          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li><b style=\"font-size: 1rem;\">Villages perchés </b><span style=\"font-size: 1rem;\">de Fayence, Tourrettes, Seillan, Caillan, Mons, et Montauroux</span></li><li><b style=\"font-size: 1rem;\">Infrastructures sportives </b><span style=\"font-size: 1rem;\">autour de Fayence (tennis, piscine,…)</span><br></li><li><b>Sports nautiques </b>(location Canoé/Kayak/Paddle surf…) au Lac de Saint Cassien (à 12km) – planche à voile, pédalo, aviron, baignade…</li><li><b>Sports nautiques à la mer </b>(à 35km) – Saint Raphaël, Cannes, …</li><li><b>Golf </b>de Montauroux (à 3km)</li><li><b>Centre de vol-à-voile </b>de Fayence (2km)</li><li><b>Randonnées </b>au Massif de l’Estérel (à 35km)</li><li><b>Randonnées et escalade </b>aux <a href=\"http://www.altituderando.com/Esterel-Les-Gorges-du-Blavet \" target=\"_blank\">Gorges du Blavet</a> (à 20km) &nbsp;</li><li><b>Randonnées, escalade  et canyoning </b>dans les Gorges du Verdon (60km)</li><li><b>Promenades dans les riviéres </b>(Siagne et  Siagnole). Accès via la route de Saint-Cézaire . <a href=\"http://www.ajustadous.fr/aire-des-ajustadous\" target=\"_blank\">Petite aire de jeu</a> pour les enfants en bord de riviére au  croisement entre Siagne et Siagnole.&nbsp;</li><li><b>Location Canoé-Kayak-VTT  </b>à  Roquebrunne-sur-Argens (30km) https://www.basedurocher.fr&nbsp;</li><li><b style=\"font-size: 1rem;\">Les bambous du Mandarin </b><span style=\"font-size: 1rem;\">(jolie<a href=\"http://www.cote.azur.fr/articles/lieu/les-bambous-du-mandarin-100.htm#_=_\" target=\"_blank\"> forêt de bambou</a> près de Montauroux petite entrée payante)&nbsp;</span></li><li><b>Domaine du Muy</b> (à  30km, un parc de sculptures contemporaines, sur rdv uniquement) http://domainedumuy.com&nbsp;</li><li><b>Peyrassol</b> (à  75km, un parc de sculpture contemporaines au milieu d'un domaine viticole) http://www.peyrassol.com&nbsp;</li><li><b>Fondation Venet</b> (à 30km, la Fondation du  sculpteur Bernar Venet, sur réservation) http://www.venetfoundation.org</li><li><b>Musées</b> à Antibes, Fréjus, Grasse (28 km), Draguignan, Nice,…</li><li><b>Edifices religieux</b>, Abbaye du Thoronet, La Verne, La Celle,…</li><li><b>Châteaux</b>, Caillan, Seillan, Tourettes, Entrecastaux, Beauregard, Bargème, Gourdon, Trigance…</li><li><b>Marchés</b> dans les villages perchés</li><li><b>Nombreux vignobles</b> près de Le Muy</li><li><b>Restaurant</b> les Deux Rocs  à  Seillans (7km) http://www.hoteldeuxrocs.com&nbsp;</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <div><br></div><ul>\n                    <li><b>Domaine du Muy</b> (à  30km, un parc de sculptures contemporaines, sur rdv uniquement) <a href=\"http://domainedumuy.com\" target=\"_blank\">http://domainedumuy.com</a>&nbsp;</li><li><b>Peyrassol</b> (à  75km, un parc de sculpture contemporaines au milieu d'un domaine viticole) <a href=\"http://www.peyrassol.com\" target=\"_blank\">http://www.peyrassol.com</a>&nbsp;</li><li><b>Fondation Venet</b> (à 30km, la Fondation du  sculpteur Bernar Venet, sur réservation) <a href=\"http://www.peyrassol.com\" target=\"_blank\">http://www.venetfoundation.org</a></li><li><b>Musées</b> à Antibes, Fréjus, Grasse (28 km), Draguignan, Nice,…</li><li><b>Edifices religieux</b>, Abbaye du Thoronet, La Verne, La Celle,…</li><li><b>Châteaux</b>, Caillan, Seillan, Tourettes, Entrecastaux, Beauregard, Bargème, Gourdon, Trigance…</li><li><b>Marchés</b> dans les villages perchés</li><li><b>Nombreux vignobles</b> près de Le Muy</li><li><b>Restaurant</b> les Deux Rocs  à  Seillans (7km) http://www.hoteldeuxrocs.com&nbsp;</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qJnx5ye4rq",
           "_anchor": "content12-1d",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><b>GASTRONOMIE ET RESTAURANTS</b></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-1u",
+          "_isUserblock": true,
+          "_cid": "qK2wHe3wii",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "0px",
+                      "margin-top": "-10px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "25px",
+                      "height": "25px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "_name": "content12",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li>Les Deux Rocs&nbsp;: sur la place en haut de Seillans, délicieux (1 Rue Fontaine d&amp;#39;Amont, 83440 Seillans -&nbsp;+33 4 94 76 87 32). Beaucoup de charme.</li><li>Le Temps des Cerises&nbsp;: au cœur de Fayence (2 Place de la République, 83440 Fayence-&nbsp;+33 4 94 76 01 19)</li><li>Le Castellaras&nbsp;: restaurant gastronomique, vue magnifique sur Fayence (461 Chemin de</li><li>Peymeyan, 83440 Fayence - +33 4 94 76 13 80)</li><li>Restaurant du Golf de Cabris (très bon mais pas adapté aux enfants)</li><li>Au Petit Bonheur (Rue Pierre Porre à Mons - +33 4 94 76 38 09) – bon&nbsp;!</li><li>Traiteur Bio Chefs Consulting à Fayence&nbsp;: si vous n’avez pas le courage de cuisiner etque vous voulez profiter de la maison (41, av. Robert Fabre à Fayence - +33 6 88 62 97 96). Super bon&nbsp;! www.chefsconsulting.fr</li><li>Vignobles. Notre préféré&nbsp;: Le domaine du Val d’Iris (pas loin de la maison&nbsp;: 341 cheminde la Combe 83440 Seillans - +33 4 94 76 97 66) <a href=\"http://www.valdiris.com\" target=\"_blank\">www.valdiris.com</a></li><li>Un autre très bon également&nbsp;: domaine de Méaulx (sur la route de Claviers - +33 4 94 76 60 06)</li><li>Marché de Fayence (le jeudi et le samedi matin)</li><li>Le Marché Paysan&nbsp;de la ferme du Laquet : vente de produits locaux (Carrefour D552, D563, 562 - Quartier Tireboeuf à 83440 Tourrettes). Magnifique pour y acheter les fruits et légumes. (Mardi-mercredi- jeudi et dimanche, de 08h à 12h30 / Vendredi et samedi, de 08h à 19h)</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content12-1v",
+          "_isUserblock": true,
+          "_cid": "qK2wPost2w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
